@@ -1,0 +1,544 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #B69758;
+    padding: 10px 10px;
+    transition: 0.3s;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #323232;
+}
+.btn svg{
+    margin-left: 8px;
+}
+.btn:hover{
+    background: #1F1F1F;
+    color: #FFFFFF;
+    border: 1px solid #1F1F1F;
+}
+.btn svg path{
+    transition: 0.3s;
+
+}
+.btn:hover svg path{
+    fill: #FFFFFF;
+}
+.avintage-cabinets{
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.avintage__fon{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 760px;
+    display: flex;
+    align-items: center;
+}
+.avintage__tit{
+    max-width: 464px;
+    width: 100%;
+    background: rgba(221, 221, 221, 0.65);
+    padding: 27px 22px 30px;
+}
+
+.avintage__tit p{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+h1{
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 42px;
+    color: #000000;
+}
+h2{
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #323232;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    display: none;
+}
+.swiper-button-next, .swiper-button-prev{
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: auto;
+    bottom: 25px;
+}
+.swiper-button-prev{
+    left: 20px;
+}
+.swiper-button-next{
+    right: 20px;
+}
+.swiper-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 25px;
+}
+.swiper-pagination-bullet{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    background: unset;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    border: 1px solid #FFFFFF;
+}
+.bestsellers__info{
+    margin: 30px 0;
+}
+.bestsellers__info h2{
+    text-align: center;
+    padding: 0 54px;
+    background: #000000;
+    position: relative;
+    z-index: 9;
+    width: max-content;
+    margin: 0 auto;
+}
+.bestsellers__title{
+    position: relative;
+    width: 100%;
+}
+.bestsellers__title:before{
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: #B69758;
+}
+.bestsellers__wrap{
+    margin: 30px -10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bestsellers__box{
+    width: 25%;
+    padding: 10px;
+}
+.bestsellers__cnt{
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+.bestsellers__photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    transition: 0.3s;
+    position: relative;
+}
+.bests__search{
+    opacity: 0;
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    transition: 0.3s;
+}
+.bestsellers__photo:hover .bests__search{
+    opacity: 1;
+}
+.bestsellers__block{
+    margin-top: 10px;
+}
+.bestsellers__block>ul{
+    display: flex;
+    align-items: center;
+}
+.bestsellers__block>ul li{
+    display: flex;
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+}
+.bestsellers__block>a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #323232;
+    margin-top: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.bestsellers__block p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 5px;
+    color: #A7A7A7;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.bestsellers__btn{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bestsellers__price del{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #A7A7A7;
+}
+.bestsellers__price strong{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #323232;
+    display: block;
+}
+.best__aps{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 10px;
+    left: 10px;
+    z-index: 98;
+}
+.best__aps div{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.zexch{
+    background: #800606;
+}
+.norutyun{
+    background: #000000;
+}
+.xnt{
+    background: #B69758;
+}
+.yarlik{
+    position: absolute;
+    right: 9px;
+    top: 10px;
+    background-image: url("../img/yarlik.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 37px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 97;
+}
+.yarlik span{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 4px;
+    color: #FFFFFF;
+}
+.new-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px -17px 0;
+}
+.new-box{
+    width: 33.333333%;
+    padding: 17px;
+}
+.new-info{
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.new-info strong{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #B69758;
+    margin-top: 40px;
+    display: block;
+}
+.new-info>span{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A7A7A7;
+    display: block;
+
+}
+.new-info p{
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #323232;
+}
+.redy__more{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B69758;
+}
+.redy__more img{
+    margin-left: 10px;
+}
+.history-dovini{
+    padding: 25px 50px 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.history-dovini strong{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #B69758;
+    display: block;
+}
+.history-dovini p{
+    text-align: center;
+    margin-top: 30px;
+}
+.new-reviews{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+}
+.new-reviews span{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #A7A7A7;
+
+}
+.new-reviews ul{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.new-reviews ul li{
+    margin-right: 4px;
+}
+.new-reviews p{
+    margin-top: 30px;
+
+}
+.all-rev{
+    margin-bottom: 60px;
+}
+.all-rev .btn{
+    margin: 30px auto 0;
+    color: #B69758;
+    max-width: 151px;
+    width: 100%;
+    height: 44px;
+}
+.all-rev .btn:hover{
+    color: #FFFFFF;
+}
+@media (max-width: 1430px){
+    .avintage__fon {
+        height: 660px;
+    }
+}
+@media (max-width: 1299px){
+    .new-wrap {
+        margin: 30px -12px 0;
+    }
+    .new-box {
+        padding: 12px;
+    }
+
+}
+@media (max-width: 1199px){
+    .avintage__fon {
+        height: 560px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .avintage__tit {
+        max-width: 400px;
+        padding: 20px 20px 20px;
+    }
+    .bestsellers__box {
+        width: 33%;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .bestsellers__info h2 {
+        padding: 0 40px;
+    }
+
+}
+@media (max-width: 991px){
+    .avintage__fon {
+        height: 470px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .bestsellers__box {
+        width: 50%;
+    }
+    .bestsellers__cnt {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .new-box {
+        width: 50%;
+    }
+    .new-info {
+        height: 100%;
+    }
+}
+@media (max-width: 760px){
+    .avintage__fon {
+        height: 500px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .new-info {
+        padding: 15px;
+    }
+    .new-box {
+        padding: 10px;
+    }
+    .new-wrap {
+        margin: 20px -10px 0;
+    }
+    .new-info strong {
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 20px;
+    }
+    .new-info>span {
+        margin-top: 10px;
+    }
+    .history-dovini strong {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .history-dovini p {
+        margin-top: 15px;
+    }
+    .new-reviews {
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    .bestsellers__info h2 {
+        width: auto;
+    }
+
+}
+@media (max-width: 570px){
+    h1 {
+        font-size: 23px;
+        line-height: 31px;
+    }
+    .header__shop {
+        margin-right: 45px;
+    }
+    .bestsellers__box {
+        width: 100%;
+    }
+    .new-box {
+        width: 100%;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .bestsellers__info h2 {
+        padding: 0 15px;
+    }
+    .history-dovini strong {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .history-dovini {
+        padding: 20px 20px 20px;
+        margin-top: 30px;
+    }
+    .new-reviews p {
+        margin-top: 20px;
+    }
+    .all-rev {
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,243 @@
+.text-pages{
+    padding: 50px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin: 64px 0 70px;
+}
+.text-pages h1,
+.text-pages h2,
+.text-pages h3,
+.text-pages h4,
+.text-pages h5{
+    color: #1F1F1F;
+    margin-top: 10px;
+
+}
+.text-pages h1{
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    margin-top: 0;
+}
+.text-pages h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 30px;
+}
+.text-pages h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+.text-pages h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+.text-pages h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1F1F1F;
+}
+.text-pages .coll-sit{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.text-pages p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #323232;
+    margin-top: 13px;
+}
+
+
+.text-pages__table {
+    margin-top: 50px;
+}
+.text-pages__table table thead{
+    background: #000000;
+}
+.text-pages__table table thead tr th{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    text-align: left;
+
+}
+.text-pages__table table thead tr tr:nth-child(2){
+    width: 325px;
+}
+
+.text-pages__table table tbody tr:nth-child(odd){
+    background: #E7E7E8;
+}
+.text-pages__table table tbody{
+    top: 10px;
+    position: relative;
+}
+.text-pages__table table tbody tr td{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #82878D;
+    padding: 8px 20px;
+    text-align: left;
+}
+.text-pages__table table tbody tr td:first-child{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    color: #484C51;
+}
+.text-pages__table table tbody tr td:nth-child(2){
+    width: 325px;
+}
+.text-dometic{
+    margin-top: 40px;
+}
+.text-dometic ul{
+    list-style: decimal;
+    padding-left: 20px;
+}
+.text-dometic ul li{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #323232;
+    padding-left: 10px;
+}
+.text-dometic ul li::marker {
+    color: #484C51;
+    font-weight: bold;
+}
+.li-ket ul{
+    list-style: disc;
+    padding-left: 25px;
+}
+.li-ket ul li{
+    padding-left: 5px;
+
+}
+.li-ket ul li::marker {
+    color: #B69758;
+}
+
+.text-pages>img{
+    margin: 32px 0 40px;
+    width: 100%;
+}
+.text__cnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.text__cnt img{
+    max-width: 570px;
+    width: 100%;
+}
+.info-photo-text{
+    max-width: 515px;
+    width: 100%;
+    margin-left: 40px;
+}
+.text-page__picture{
+    display: flex;
+    grid-gap: 10px;
+}
+.text-page__picture img{
+    width: 24.3%;
+}
+@media (max-width: 1299px){
+    .text-pages {
+        padding: 35px;
+    }
+}
+@media (max-width: 1199px){
+    .text-pages__table{
+        overflow-x: scroll;
+        padding-bottom: 20px;
+    }
+    .text-pages__table table{
+        width: 1100px;
+    }
+    .text__cnt img {
+        max-width: 400px;
+    }
+}
+@media (max-width: 991px){
+    .text-pages {
+        padding: 25px;
+        margin: 30px 0 40px;
+    }
+    .text-pages h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .text-pages h2 {
+        font-size: 26px;
+        line-height: 34px;
+        margin-top: 20px;
+    }
+    .text-pages h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .text-pages__table {
+        margin-top: 30px;
+    }
+    .text-dometic {
+        margin-top: 25px;
+    }
+    .text-pages>img {
+        margin: 20px 0 10px;
+    }
+    .text__cnt {
+        margin: 30px 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text__cnt img {
+        max-width: 550px;
+    }
+    .info-photo-text {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .text-page__picture {
+        flex-wrap: wrap;
+    }
+    .text-page__picture img {
+        width: 32%;
+    }
+}
+@media (max-width: 760px){
+    .text-page__picture img {
+        width: 48%;
+    }
+}
+@media (max-width: 570px){
+    .text-page__picture img {
+        width: 48%;
+    }
+    .text-page__picture img {
+        width: 100%;
+    }
+    .text-pages {
+        padding: 20px;
+    }
+    .li-ket ul {
+        padding-left: 17px;
+    }
+    .text-dometic ul li {
+        padding-left: 5px;
+    }
+}
